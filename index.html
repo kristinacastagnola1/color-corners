@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta name='description' content='Color Corners - Kristina Castagnola'>
+   <title>Color Corners - Kristina Castagnola</title>
+   <link rel='stylesheet' type='text/css' href='css/color-corners.css'/>
+</head>
+<body>
+   <p>Color Corners</p>
+   <input type='checkbox' name='spring' value='spring' id='spring-checkbox' onclick='displayTabs(this)'> Spring<br>
+   <input type='checkbox' name='summer' value='summer' id='summer-checkbox' onclick='displayTabs(this)'> Summer<br>
+   <input type='checkbox' name='autumn' value='autumn' id='autumn-checkbox' onclick='displayTabs(this)'> Autumn<br>
+   <input type='checkbox' name='winter' value='winter' id='winter-checkbox' onclick='displayTabs(this)'> Winter<br>
+   <div id='answer' class='answer-box'>
+      <p id='answer-text'></p>
+      <div class='tab-corner tab-top-left' id='spring'></div>
+      <div class='tab-corner tab-top-right' id='summer'></div>
+      <div class='tab-corner tab-bottom-right' id='autumn'></div>
+      <div class='tab-corner tab-bottom-left' id='winter'></div>
+   </div>
+   <!-- no other code below this line unless it's another js file link -->
+   <script type='text/javascript' src='js/color-corners.js'></script>
+</body>
+</html>
